@@ -42,7 +42,3 @@ A Kubernetes practice project demonstrating deployment of a containerized web ap
 ## Deployment Status
 
 This repository documents an EKS learning/practice implementation. It does not claim a currently running AWS cluster.
-
-## Source / Attribution
-
-The project idea and learning flow were studied from the DevOps-Projects community repository and adapted for practice.
