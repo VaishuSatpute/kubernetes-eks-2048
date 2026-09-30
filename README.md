@@ -38,13 +38,16 @@
 
 ### Step 1: Create an EKS cluster
 
-![Alt text](image.png)
+<img width="1497" height="586" alt="image" src="https://github.com/user-attachments/assets/a604163a-ecba-4944-9afc-94cac412bcf8" />
 
-![Alt text](image-1.png)
+
+<img width="1338" height="810" alt="image" src="https://github.com/user-attachments/assets/3368fada-b1e9-4c20-b02f-4f8e4e0a3e7f" />
+
 
 ### Step 2: Create an IAM role **eks-cluster-role** with 1 policy attached: AmazonEKSClusterPolicy
 
-![Alt text](image-2.png)
+<img width="1497" height="488" alt="image" src="https://github.com/user-attachments/assets/37af5b13-3215-479b-9024-c4270c984862" />
+
 
 ```
 Create another IAM role 'eks-node-grp-role' with 3 policies attached: 
@@ -67,7 +70,8 @@ Click 'Create'. This process will take 10-12 minutes. Wait till your cluster sho
 
 ### Step 3: Add Node Groups to our cluster
 
-![Alt text](image-3.png)
+<img width="1469" height="596" alt="image" src="https://github.com/user-attachments/assets/3c743875-523a-49bb-afe8-c10b1cbba855" />
+
 
 ```
 Now, lets add the worker nodes where the pods can run
@@ -179,5 +183,6 @@ curl a06aa56b81f5741268daca84dca6b4f8-694631959.us-east-1.elb.amazonaws.com:80
 # setup to be complete)
 ```
 
-![Alt text](image-4.png)
+<img width="1476" height="1000" alt="image" src="https://github.com/user-attachments/assets/0b57ddf8-e60a-4452-bb07-7321a4c8665b" />
+
 
